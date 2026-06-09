@@ -1,1 +1,7 @@
 .vscode/
+# Compiled output
+*.exe
+*.obj
+*.ilk
+*.pdb
+vc*.pdb
