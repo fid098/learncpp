@@ -2,13 +2,12 @@
 
 int main()
 {
-
     int x{};
-    std::cin >> x;
-
-    int y{3};
-    std::cout << y;
-    std::cout << x;
+    int y{};
+    int z{};
+    std::cout << "Enter three numbers: ";
+    std::cin >> x >> y >> z;
+    std::cout << "You entered: " << x << ", " << y << " and " << z << ".\n";
 
     return 0;
 }
